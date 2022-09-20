@@ -1,0 +1,168 @@
+
+header{
+    background-color: #FFFFFF;
+}
+
+body{
+	font-family: Aquatico;
+	font-size: 14px;
+	color: #000000;
+}
+
+#intro{
+	background-image: url("../img/claqueta.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 16%;
+}
+
+#intro h1{
+	position: relative;
+	left: 40%;
+	top: -40%;
+	text-align: center;
+}
+
+#intro h2{
+	position: relative;
+	left: 40%;
+	top: -40%;
+	text-align: center;
+	font-family: Quicksand;
+}
+
+#about{
+	background-color: #000000;
+}
+
+#about h1{
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+#about p{
+	color: #FFFFFF;
+	text-align: justify;
+	font-size: 35px;
+	font-family: Quicksand;
+}
+
+#services{
+	background-color: #FFFFFF;
+}
+
+#services h1{
+	text-align: center;
+}
+
+#services h3{
+	font-family: Quicksand;
+}
+
+#services p{
+	font-family: Quicksand;
+	font-size: 20px;
+}
+
+.icon-film{
+	background-color: #000000;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	display: block;
+	border-radius: 100%;
+	color: #FFFFFF;
+	font-size: 30px;
+	text-align: center;
+}
+
+.icon-video{
+	background-color: #000000;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	display: block;
+	border-radius: 100%;
+	color: #FFFFFF;
+	font-size: 30px;
+	text-align: center;
+}
+
+.icon-sound{
+	background-color: #000000;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	display: block;
+	border-radius: 100%;
+	color: #FFFFFF;
+	font-size: 30px;
+	text-align: center;
+}
+
+#projects{
+	background-color: #000000;
+	text-align: center;
+}
+
+#projects h1{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#projects h3{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#contact{
+	background-color: #FFFFFF;
+}
+
+footer{
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 20px;
+}
+
+footer h4{
+	font-size: 18px;
+}
+
+.icon{
+	font-size: 35px;
+}
+
+.btn-rodri{
+	background-color: #000000;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 30px;
+	padding: 10px 30px;
+}
+
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+
+
+
